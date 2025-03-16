@@ -1,0 +1,29 @@
+{
+  "pet": {
+    "id": 12345,
+    "name": "Rex",
+    "photoUrls": [
+      "https://example.com/dog.jpg"
+    ],
+    "status": "available"
+  },
+  "user": {
+    "id": 1,
+    "username": "tester",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johndoe@example.com",
+    "password": "password123",
+    "phone": "1234567890",
+    "userStatus": 1
+  },
+  "order": {
+    "id": 10,
+    "petId": 12345,
+    "quantity": 1,
+    "shipDate": "2025-03-13T12:00:00.000Z",
+    "status": "placed",
+    "complete": true
+  },
+  "nonExistentPetId": 999999
+}
